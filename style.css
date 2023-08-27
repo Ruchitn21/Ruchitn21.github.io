@@ -30,6 +30,10 @@ h2 {
     line-height: 3rem;
     font-weight: 600;
     font-size: 3.4rem;
+    letter-spacing: 0.07rem;
+    line-height: 1.55rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
 }
 
 p {
@@ -43,4 +47,26 @@ a {
 
 li {
     list-style-type: none;
+}
+
+
+/* hero section start */
+
+.hero-section .container {
+    display: grid;
+    place-content: center;
+    height: inherit;
+}
+
+.bg-main {
+    height: 80vh;
+    position: relative;
+}
+
+img {
+    
+    height: auto;
+    width: 20rem;
+    border-radius: 2rem;
+
 }
