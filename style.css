@@ -49,6 +49,14 @@ li {
     list-style-type: none;
 }
 
+.nav-link {
+    color: var(--bs-main-color);
+}
+
+.nav-link:hover {
+    color: var(--secondary-color);
+}
+
 
 /* hero section start */
 
@@ -63,10 +71,15 @@ li {
     position: relative;
 }
 
+.bg-color {
+    background-color: var(--bs-dark-primary);
+}
+
 img {
-    
+
     height: auto;
     width: 20rem;
     border-radius: 2rem;
 
 }
+
